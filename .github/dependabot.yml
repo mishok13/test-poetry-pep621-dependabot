@@ -8,15 +8,4 @@ updates:
       semver-major-days: 60
     schedule:
       interval: daily
-    # versioning-strategy: increase-if-necessary
-    # groups:
-    #   poetry-main-patch-dependencies:
-    #     dependency-type: production
-    #     update-types:
-    #       - patch
-    #     patterns:
-    #       - "*"
-    #   poetry-dev-dependencies:
-    #     dependency-type: development
-    #     patterns:
-    #       - "*"
+    versioning-strategy: increase
