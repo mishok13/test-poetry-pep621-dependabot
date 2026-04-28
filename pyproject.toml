@@ -7,7 +7,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi ==0.123.1",
-    "redis >=5.2.1,<6.0.0",
+    "redis >=5.2.1",
 ]
 
 [tool.poetry]

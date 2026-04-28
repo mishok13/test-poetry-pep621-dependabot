@@ -8,4 +8,4 @@ updates:
       semver-major-days: 60
     schedule:
       interval: daily
-    versioning-strategy: widen
+    versioning-strategy: increase
