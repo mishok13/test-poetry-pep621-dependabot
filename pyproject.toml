@@ -1,0 +1,18 @@
+[project]
+name = "testrepo"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi ==0.123.1",
+    "redis >=5.2.1,<6.0.0",
+]
+
+[tool.poetry]
+packages = [{include = "testrepo", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: "/"
+    open-pull-requests-limit: 5
+    cooldown:
+      default-days: 14
+      semver-major-days: 60
+    registries:
+      - github
+    schedule:
+      interval: daily
+    groups:
+      poetry-main-patch-dependencies:
+        dependency-type: production
+        update-types:
+          - patch
+        patterns:
+          - "*"
+      poetry-dev-dependencies:
+        dependency-type: development
+        patterns:
+          - "*"
