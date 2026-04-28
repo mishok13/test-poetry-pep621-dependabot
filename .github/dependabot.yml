@@ -6,8 +6,6 @@ updates:
     cooldown:
       default-days: 14
       semver-major-days: 60
-    registries:
-      - github
     schedule:
       interval: daily
     groups:
